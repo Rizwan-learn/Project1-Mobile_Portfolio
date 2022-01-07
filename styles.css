@@ -1,3 +1,117 @@
-h1 {
-  color: black;
+* {
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+  list-style: none;
+  box-sizing: border-box;
 }
+
+body {
+  font-family: sans-serif;
+  background-image: url("Image/backimg.png");
+
+}
+
+.page-1{
+  display: flex;
+  height: 100vh;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+}
+nav {
+  background-color: white;
+  height: 80px;
+  width: 100%;
+}
+
+nav h1.logo {
+  display: flex;
+  font-size: 18px;
+  line-height: 80px;
+  font-weight: bold;
+  color: #6070ff;
+  text-align: center;
+  align-items: center;
+}
+
+nav ul {
+  float: right;
+  margin-right: 20px;
+}
+
+nav ul li {
+  display: inline-block;
+  line-height: 80px;
+  margin: 0 5px;
+}
+
+a:hover{
+  background: #acb7c3;
+  transition: 0.4s
+}
+
+.nav-items {
+  transition: 0.7s ease;
+}
+
+.intro {
+  position: static;
+  display: flex;
+  align-items: center;
+  align-content: center;
+  flex-direction: column;
+  height: 50vh;
+  justify-content: center;
+}
+
+section h1{
+  display: flex;
+  position: static;
+  font-family: sans-serif;
+  color: #091e42;
+  font-size: 48px;
+  flex: none;
+  width: 80%;
+}
+
+section p{
+  display: flex;
+  position: static;
+  font-family: sans-serif;
+  color: #344563;
+  font-size: 20px;
+  line-height: 28px;
+  flex: none;
+  width: 80%;
+}
+
+.socials {
+  display: flex;
+  color: #7f8cff;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+
+}
+
+ul .s-icons{
+  display: flex;
+  flex-direction: row;
+  width: 130px;
+  justify-content: space-between;
+}
+
+.icon {
+  display: flex;
+  width: 20px;
+  margin-right: 10px;
+  float: left;
+  
+}
+
