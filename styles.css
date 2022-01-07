@@ -9,10 +9,9 @@
 body {
   font-family: sans-serif;
   background-image: url("Image/backimg.png");
-
 }
 
-.page-1{
+.page-1 {
   display: flex;
   height: 100vh;
   flex-direction: column;
@@ -23,6 +22,7 @@ body {
   display: flex;
   justify-content: space-between;
 }
+
 nav {
   background-color: white;
   height: 80px;
@@ -50,9 +50,9 @@ nav ul li {
   margin: 0 5px;
 }
 
-a:hover{
+a:hover {
   background: #acb7c3;
-  transition: 0.4s
+  transition: 0.4s;
 }
 
 .nav-items {
@@ -69,7 +69,7 @@ a:hover{
   justify-content: center;
 }
 
-section h1{
+section h1 {
   display: flex;
   position: static;
   font-family: sans-serif;
@@ -79,7 +79,7 @@ section h1{
   width: 80%;
 }
 
-section p{
+section p {
   display: flex;
   position: static;
   font-family: sans-serif;
@@ -97,10 +97,9 @@ section p{
   font-weight: 500;
   font-size: 16px;
   line-height: 24px;
-
 }
 
-ul .s-icons{
+ul .s-icons {
   display: flex;
   flex-direction: row;
   width: 130px;
@@ -112,6 +111,4 @@ ul .s-icons{
   width: 20px;
   margin-right: 10px;
   float: left;
-  
 }
-
