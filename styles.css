@@ -4,9 +4,6 @@
   text-decoration: none;
   list-style: none;
   box-sizing: border-box;
-  
-  
-  
 }
 
 body {
@@ -14,8 +11,6 @@ body {
   flex-direction: column;
   justify-content: flex-start;
   height: 100vh;
-  
-  
 }
 
 header {
@@ -141,8 +136,7 @@ section p {
   line-height: 28px;
   flex: none;
   width: 80%;
-  min-width:500px; 
- 
+  min-width: 500px;
 }
 
 .socials {
@@ -168,16 +162,14 @@ ul .s-icons {
   float: left;
 }
 
-/* Portfolio page CSS will be added here*/
+/* Portfolio page CSS will be added here */
 
-.page1{
+.page1 {
   display: flex;
   width: 40%;
-  
 }
 
-.tonic-img{
-
+.tonic-img {
   width: 295px;
   height: 220px;
   display: flex;
@@ -191,18 +183,16 @@ ul .s-icons {
   padding-top: 20%;
   padding-bottom: 20%;
   font-size: 13px;
-  
 }
 
-.my-skills{
+.my-skills {
   display: flex;
   flex-direction: row;
   align-items: flex-start;
   justify-content: space-evenly;
-  padding-bottom: 50px;
 }
 
-.skill-1{
+.skill-1 {
   width: 55px;
   height: 16px;
   top: 8px;
@@ -214,7 +204,7 @@ ul .s-icons {
   align-self: flex-start;
 }
 
-.skill-2{
+.skill-2 {
   list-style-type: disc;
   font-style: normal;
   font-weight: 600;
@@ -223,7 +213,7 @@ ul .s-icons {
   color: #344563;
 }
 
-.skill-3{
+.skill-3 {
   list-style-type: disc;
   font-style: normal;
   font-weight: 600;
@@ -232,7 +222,7 @@ ul .s-icons {
   color: #7a869a;
 }
 
-.role p{
+.role p {
   display: flex;
   position: static;
   font-family: sans-serif;
@@ -242,20 +232,18 @@ ul .s-icons {
   align-self: flex-start;
   flex: none;
   width: 80%;
-  min-width:500px;
-  padding-bottom: 50px; 
-  
+  min-width: 500px;
+  padding-bottom: 50px;
 }
 
-.lang-btn{
+.lang-btn {
   display: flex;
   flex-direction: row;
   align-items: center;
-  justify-content: space-evenly; 
-    
+  justify-content: space-evenly;
 }
 
-.code{
+.code {
   width: 53px;
   height: 24px;
   font-size: 12px;
@@ -264,23 +252,22 @@ ul .s-icons {
   background-color: #ebebff;
   align-items: center;
   letter-spacing: 0.03;
-  padding-bottom: 4px,12px,4px,12px;
+  padding-bottom: 4px, 12px, 4px, 12px;
   border: 1px solid #dfe1e6;
   background-color: #dfe1e6;
   box-sizing: border-box;
   border-radius: 16px;
- 
 }
-.title{
+
+.title {
   padding-bottom: 30px;
 }
 
-.pro-btn{
+.pro-btn {
   width: 100px;
-
 }
 
-.block{
+.block {
   display: block;
   width: 100px;
   height: 24px;
@@ -290,7 +277,4 @@ ul .s-icons {
   background-color: #396df2;
   box-sizing: border-box;
   border-radius: 16px;
-
-
 }
-
