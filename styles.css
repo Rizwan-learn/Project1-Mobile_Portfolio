@@ -180,7 +180,6 @@ ul .s-icons {
   border-radius: 8px;
   justify-content: center;
   align-items: center;
-  padding: 20%;
   font-size: 13px;
 }
 
@@ -249,7 +248,7 @@ ul .s-icons {
   color: #6070ff;
   background-color: #ebebff;
   align-items: center;
-  letter-spacing: 0.03;
+  letter-spacing: 0.3px;
   padding: 4px, 12px, 4px, 12px;
   box-sizing: border-box;
 }
@@ -274,7 +273,7 @@ ul .s-icons {
   border-radius: 16px;
 }
 
-/* about me page css below*/
+/* about me page css below */
 
 .about-page {
   display: flex;
