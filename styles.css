@@ -223,9 +223,6 @@ ul.featured-project-languages li {
   padding: 12px 10px;
 }
 
-/* about*/
-
-
 .featured-project-button:enabled {
   align-items: center;
   padding: 12px;
@@ -273,4 +270,20 @@ ul.featured-project-languages li {
   color: #5b5957;
   border: none;
   margin-top: 12px;
+}
+
+/* about*/
+
+.resume-project-button {
+  
+  padding: 12px;
+  background: #ffffff;
+  font-family: 'Inter', sans-serif;
+  font-size: 17px;
+  color: rgb(20, 33, 221);
+  margin-top: 12px;
+  max-width: 60%;
+  justify-content: flex-start;
+  display: flex;
+
 }
