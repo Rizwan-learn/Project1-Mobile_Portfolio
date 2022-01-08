@@ -164,150 +164,113 @@ ul .s-icons {
 
 /* Portfolio page CSS will be added here */
 
-.page1 {
+.project-location {
+  display: grid;
+}
+
+#my-project-list {
   display: flex;
-  width: 40%;
-}
-
-.tonic-img {
-  width: 295px;
-  height: 220px;
-  display: flex;
-  margin: auto;
-  top: 16px;
-  padding-bottom: 50px;
-  left: 16px;
-  border-radius: 8px;
-  justify-content: center;
-  align-items: center;
-  font-size: 13px;
-}
-
-.my-skills {
-  display: flex;
-  flex-direction: row;
-  align-items: flex-start;
-  justify-content: space-evenly;
-}
-
-.skill-1 {
-  width: 55px;
-  height: 16px;
-  top: 8px;
-  font-style: normal;
-  font-weight: 600;
-  font-size: 13px;
-  line-height: 16px;
-  color: #344563;
-  align-self: flex-start;
-}
-
-.skill-2 {
-  list-style-type: disc;
-  font-style: normal;
-  font-weight: 600;
-  font-size: 13px;
-  line-height: 16px;
-  color: #344563;
-}
-
-.skill-3 {
-  list-style-type: disc;
-  font-style: normal;
-  font-weight: 600;
-  font-size: 13px;
-  line-height: 15px;
-  color: #7a869a;
-}
-
-.role p {
-  display: flex;
-  position: static;
-  font-family: sans-serif;
-  color: #344563;
-  font-size: 20px;
-  line-height: 28px;
-  align-self: flex-start;
-  flex: none;
-  width: 80%;
-  min-width: 500px;
-  padding-bottom: 50px;
-}
-
-.lang-btn {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: space-evenly;
-}
-
-.code {
-  width: 53px;
-  height: 24px;
-  font-size: 12px;
-  color: #6070ff;
-  background-color: #ebebff;
-  align-items: center;
-  letter-spacing: 0.3px;
-  box-sizing: border-box;
-}
-
-.title {
-  padding-bottom: 30px;
-}
-
-.pro-btn {
-  width: 100px;
-}
-
-.block {
-  display: block;
-  width: 100px;
-  height: 24px;
-  left: 12px;
-  top: 12px;
-  border: 1px solid #395df2;
-  background-color: #396df2;
-  box-sizing: border-box;
-  border-radius: 16px;
-}
-
-/* about me page css below */
-
-.about-page {
-  display: flex;
-  justify-content: flex-start;
-  margin: 5% 10%;
-}
-
-.about-intro {
-  display: flex;
-  align-items: center;
-  align-content: center;
   flex-direction: column;
-  height: 50vh;
-  justify-content: flex-start;
+  margin-right: 24px;
+  margin-left: 24px;
 }
 
-.about-socials {
-  display: flex;
-  color: #7f8cff;
+
+
+#spearator {
+  border-bottom: 1px solid #212121;
+  width: 327px;
+  margin: auto;
+  margin-bottom: 80px;
+}
+
+#featured-project-image {
+  display: block;
+  margin: auto;
+  margin-bottom: 24px;
+}
+
+#featured-project-title {
+  font-family: 'Crete Round', serif;
   font-style: normal;
-  font-weight: 500;
+  font-weight: normal;
+  font-size: 32px;
+  line-height: 44px;
+  color: #091e42;
+}
+
+#featured-project-description {
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: normal;
   font-size: 16px;
   line-height: 24px;
+  margin-bottom: 12px;
 }
 
-ul .about-s-icons {
+ul.featured-project-languages {
+  list-style-type: none;
   display: flex;
-  flex-direction: row;
-  width: 130px;
-  justify-content: space-between;
+  font-family: 'Inter', sans-serif;
+  font-size: 16px;
+  gap: 12px;
 }
 
-.about-icon {
+ul.featured-project-languages li {
+  border: 1px solid #ebebff;
+  box-sizing: border-box;
+  text-align: center;
+  padding: 12px 10px;
+}
+
+/* about*/
+
+
+.featured-project-button:enabled {
+  align-items: center;
+  padding: 12px;
+  background: #ffffff;
+  font-family: 'Inter', sans-serif;
+  font-size: 17px;
+  color: rgb(20, 33, 221);
+  border-radius: blue;
+  margin-top: 12px;
+  max-width: 30%;
   display: flex;
-  width: 20px;
-  margin-right: 10px;
-  float: left;
+}
+
+.featured-project-button:hover {
+  display: flex;
+  align-items: center;
+  padding: 12px;
+  background: #fff5e1;
+  font-family: 'Inter', sans-serif;
+  font-size: 17px;
+  color: #ebebff;
+  border: 1px solid #0019f5;
+  margin-top: 12px;
+}
+
+.featured-project-button:active {
+  align-items: center;
+  padding: 12px;
+  display: flex;
+  background: #0019f5;
+  font-family: 'Inter', sans-serif;
+  font-size: 17px;
+  color: #fff;
+  border: none;
+  margin-top: 12px;
+}
+
+.featured-project-button:disabled {
+  align-items: center;
+  padding: 12px;
+  display: flex;
+  background: #f4f1f0;
+  font-family: 'Inter', sans-serif;
+  font-size: 17px;
+  color: #5b5957;
+  border: none;
+  margin-top: 12px;
 }
