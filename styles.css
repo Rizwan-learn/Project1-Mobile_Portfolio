@@ -9,14 +9,23 @@
 body {
   font-family: sans-serif;
   background-image: url("Image/backimg.png");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  flex-direction: column;
+  justify-content: flex-start;
+  height: 100vh;
+  position: absolute;
 }
 
-.page-1 {
+header {
   display: flex;
-  height: 100vh;
   flex-direction: column;
   justify-content: space-between;
+  justify-content: flex-end;
+  overflow: hidden;
+  text-overflow: ellipsis;
 }
+
 
 .navbar {
   display: flex;
@@ -37,6 +46,7 @@ nav h1.logo {
   color: #6070ff;
   text-align: center;
   align-items: center;
+  justify-content: space-around;
 }
 
 nav ul {
@@ -58,6 +68,12 @@ a:hover {
 .nav-items {
   transition: 0.7s ease;
 }
+.homepage{
+  display: flex;
+  justify-content: flex-start;
+  margin: 5% 10%;
+  
+}
 
 .intro {
   position: static;
@@ -66,7 +82,7 @@ a:hover {
   align-content: center;
   flex-direction: column;
   height: 50vh;
-  justify-content: center;
+  justify-content: flex-start;
 }
 
 section h1 {
