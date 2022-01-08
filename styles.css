@@ -218,6 +218,37 @@ ul.featured-project-languages li {
   padding: 12px 10px;
 }
 
+#my-project-list-2{
+  display: flex;
+  flex-direction: column;
+  margin-right: 24px;
+  margin-left: 24px;
+}
+
+#spearator-2 {
+  border-bottom: 1px solid #212121;
+  width: 327px;
+  margin: auto;
+  margin-bottom: 80px;
+}
+
+#featured-project-image-2 {
+  display: block;
+  margin: auto;
+  margin-bottom: 24px;
+}
+
+#featured-project-title- {
+  font-family: "Crete Round", serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 32px;
+  line-height: 44px;
+  color: #091e42;
+}
+
+
+
 .featured-project-button:enabled {
   align-items: center;
   padding: 12px;
