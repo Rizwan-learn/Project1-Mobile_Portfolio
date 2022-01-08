@@ -8,108 +8,50 @@
     <link href="styles.css" rel="stylesheet" type="text/css">
 </head>
 <body>
-    <div class="app-wrap">
-        <header>
-            <nav class="navbar">
-                    
-            <a href="#" class=logo> My Logo </a>
+    <header>
+        <nav class="navbar">
+                 
+          <a href="#" class=logo> My Logo </a>
+          
+          <ul class="nav-menu">
+            <li class="nav-items"><a href="portfolio.html">Portfolio</a></li>
+            <li class="nav-items"><a href="about.html">About</a></li>
+            <li class="nav-items"><a href="#">Contact</a></li>
+          </ul>
+          
+  
+          <div class="hamburger">
             
-            <ul class="nav-menu">
-                <li class="nav-items"><a href="portfolio.html">Portfolio</a></li>
-                <li class="nav-items"><a href="about.html">About</a></li>
-                <li class="nav-items"><a href="#">Contact</a></li>
-            </ul>
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
             
-    
-            <div class="hamburger">
-                
-                <span class="bar"></span>
-                <span class="bar"></span>
-                <span class="bar"></span>
-                
-        
-            </div>
-    
-                        
-            </nav>
-        </header>
+      
+          </div>
+  
+                      
+        </nav>
+      </header>
 
-        <section class="page1">
-            <div class="container">
-                <div class="tonic-img">
-                    <img src="Image/SnapshootPortfolio.png" alt="error">
-                </div>
-                <div class="title">
+    <section class="project-location">
+            <div id="my-project-list">
+                <img id="featured-project-image" alt="quires" src="Image/SnapshootPortfolio.png">
+                <div id="works-title">
                     <h1>Tonic</h1>
+                </div>
+                <div id="separator"></div>
+                <p id="featured-project-description">A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a standard dummy text.</p>
+                <ul class="featured-project-languages">
+                    <li id="lang1">css</li>
+                    <li id="lang2">html</li>
+                    <li id="lang3">bootstrap</li>
+                    <li id="lang4">Ruby</li>
+                </ul>
+                <button class="featured-project-button" type="button">See Project</button>
             </div>
-                <br>
-                <br>
-
-                <div class="skills">
-                    <ul class="my-skills">
-                        <li class="skill-1"> CANOPY </li>
-                        <li class="skill-2"> Back End Dev </li>
-                        <li class="skill-3"> 2015 </li>
-                    </ul>
-                </div>
-                <div class="role">
-                    <p>A daily selection of privately personalized reads; no accounts or sign-ups required.</p>
-                </div>
-                <div class="lang">
-                    <ul class="lang-btn">
-                        <li class="code">html</li>
-                        <li class="code">css</li>
-                        <li class="code">javascript</li>
-                        </ul>
-                
-                </div>
-                
-                <br>
-                <br>
-
-                <button type="button" class="block">SEE PROJECT</button>
-                </div>
-        </section>
-        <br>
-        <br>
-        <br>
-        <section class="page2">
-            <div class="container">
-                <div class="tonic-img">
-                    <img src="Image/SnapshootPortfolio.png" alt="error">
-                </div>
-                <div class="title">
-                    <h1>Tonic</h1>
-            </div>
-                <br>
-                <br>
-
-                <div class="skills">
-                    <ul class="my-skills">
-                        <li class="skill-1"> CANOPY </li>
-                        <li class="skill-2"> Back End Dev </li>
-                        <li class="skill-3"> 2015 </li>
-                    </ul>
-                </div>
-                <div class="role">
-                    <p>A daily selection of privately personalized reads; no accounts or sign-ups required.</p>
-                </div>
-                <div class="lang">
-                    <ul class="lang-btn">
-                        <li class="code">html</li>
-                        <li class="code">css</li>
-                        <li class="code">javascript</li>
-                        </ul>
-                
-                </div>
-                
-                <br>
-                <br>
-
-                <button type="button" class="block">SEE PROJECT</button>
-                </div>
-        </section>
-    </div>   
-    <script src="./app.js"></script>
+    </section>
+    
+    
+  <script src="./app.js"></script>
 </body>
 </html>
