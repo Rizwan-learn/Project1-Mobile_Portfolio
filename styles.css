@@ -180,8 +180,7 @@ ul .s-icons {
   border-radius: 8px;
   justify-content: center;
   align-items: center;
-  padding-top: 20%;
-  padding-bottom: 20%;
+  padding: 20%;
   font-size: 13px;
 }
 
@@ -247,16 +246,12 @@ ul .s-icons {
   width: 53px;
   height: 24px;
   font-size: 12px;
-  border-radius: 8px solid black;
   color: #6070ff;
   background-color: #ebebff;
   align-items: center;
   letter-spacing: 0.03;
-  padding-bottom: 4px, 12px, 4px, 12px;
-  border: 1px solid #dfe1e6;
-  background-color: #dfe1e6;
+  padding: 4px, 12px, 4px, 12px;
   box-sizing: border-box;
-  border-radius: 16px;
 }
 
 .title {
@@ -280,6 +275,7 @@ ul .s-icons {
 }
 
 /* about me page css below*/
+
 .about-page {
   display: flex;
   justify-content: flex-start;
@@ -293,27 +289,6 @@ ul .s-icons {
   flex-direction: column;
   height: 50vh;
   justify-content: flex-start;
-}
-
-section h1 {
-  display: flex;
-  font-family: sans-serif;
-  color: #091e42;
-  font-size: 48px;
-  flex: none;
-  width: 80%;
-}
-
-section p {
-  display: flex;
-  position: static;
-  font-family: sans-serif;
-  color: #344563;
-  font-size: 20px;
-  line-height: 28px;
-  flex: none;
-  width: 80%;
-  min-width: 500px;
 }
 
 .about-socials {
