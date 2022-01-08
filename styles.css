@@ -280,3 +280,61 @@ ul .s-icons {
 }
 
 /* about me page css below*/
+.about-page {
+  display: flex;
+  justify-content: flex-start;
+  margin: 5% 10%;
+}
+
+.about-intro {
+  display: flex;
+  align-items: center;
+  align-content: center;
+  flex-direction: column;
+  height: 50vh;
+  justify-content: flex-start;
+}
+
+section h1 {
+  display: flex;
+  font-family: sans-serif;
+  color: #091e42;
+  font-size: 48px;
+  flex: none;
+  width: 80%;
+}
+
+section p {
+  display: flex;
+  position: static;
+  font-family: sans-serif;
+  color: #344563;
+  font-size: 20px;
+  line-height: 28px;
+  flex: none;
+  width: 80%;
+  min-width: 500px;
+}
+
+.about-socials {
+  display: flex;
+  color: #7f8cff;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+ul .about-s-icons {
+  display: flex;
+  flex-direction: row;
+  width: 130px;
+  justify-content: space-between;
+}
+
+.about-icon {
+  display: flex;
+  width: 20px;
+  margin-right: 10px;
+  float: left;
+}
