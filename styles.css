@@ -8,9 +8,6 @@
 
 body {
   font-family: sans-serif;
-  background-image: url("Image/backimg.png");
-  background-repeat: no-repeat;
-  background-size: 100%;
   flex-direction: column;
   justify-content: flex-start;
   height: 100vh;
@@ -24,40 +21,7 @@ header {
   justify-content: flex-end;
   overflow: hidden;
   text-overflow: ellipsis;
-}
-
-
-.navbar {
-  display: flex;
-  justify-content: space-between;
-}
-
-nav {
-  background-color: white;
-  height: 80px;
-  width: 100%;
-}
-
-nav h1.logo {
-  display: flex;
-  font-size: 18px;
-  line-height: 80px;
-  font-weight: bold;
-  color: #6070ff;
-  text-align: center;
-  align-items: center;
-  justify-content: space-around;
-}
-
-nav ul {
-  float: right;
-  margin-right: 20px;
-}
-
-nav ul li {
-  display: inline-block;
-  line-height: 80px;
-  margin: 0 5px;
+  z-index: 2;
 }
 
 a:hover {
@@ -65,9 +29,79 @@ a:hover {
   transition: 0.4s;
 }
 
-.nav-items {
-  transition: 0.7s ease;
+.navbar{
+  min-height: 70px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 24px;
 }
+.nav-menu{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 60px;
+}
+
+.logo{
+  font-size: 18px;
+  line-height: 20px;
+  font-weight: bold;
+  color: #6070ff;
+
+}
+
+.hamburger{
+  display: none;
+  cursor: pointer;
+}
+
+.bar{
+  display: block;
+  width: 25px;
+  height: 3px;
+  margin: 5px auto;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+  background-color: #6070ff;
+
+}
+
+@media(max-width:768px){
+  .hamburger{
+    display: block;
+  }
+
+  .hamburger.active .bar:nth-child(2){
+    opacity: 0;
+  }
+  .hamburger.active .bar:nth-child(1){
+    transform: translateY(8px) rotate(45deg);
+  }
+  .hamburger.active .bar:nth-child(3){
+    transform: translateY(-8px) rotate(-45deg);
+  }
+
+  .nav-menu{
+    position: fixed;
+    left: -100%;
+    top: 70px;
+    gap: 0;
+    flex-direction: column;
+    background-color:#6070ff;
+    width: 100%;
+    text-align: center;
+    transition: 0.3s;
+  }
+  .nav-items{
+    margin: 16px 0;
+  }
+
+  .nav-menu.active{
+    left: 0;
+  }
+}
+
 .homepage{
   display: flex;
   justify-content: flex-start;
@@ -128,3 +162,4 @@ ul .s-icons {
   margin-right: 10px;
   float: left;
 }
+
