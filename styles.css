@@ -61,7 +61,6 @@ a:hover {
   height: 3px;
   margin: 5px auto;
   transition: all 0.3s ease-in-out;
-  transition: all 0.3s ease-in-out;
   background-color: #6070ff;
 }
 
@@ -181,11 +180,13 @@ ul .s-icons {
   margin: auto;
   margin-bottom: 80px;
 }
+
 #featured-project-image {
   display: block;
   margin: auto;
   margin-bottom: 24px;
 }
+
 #featured-project-title {
   font-family: "Crete Round", serif;
   font-style: normal;
@@ -196,7 +197,7 @@ ul .s-icons {
 }
 
 #featured-project-description {
-  font-family: "Inter", sans-serif;
+
   font-style: normal;
   font-weight: normal;
   font-size: 16px;
@@ -207,7 +208,6 @@ ul .s-icons {
 ul.featured-project-languages {
   list-style-type: none;
   display: flex;
-  font-family: "Inter", sans-serif;
   font-size: 16px;
   gap: 12px;
 }
@@ -222,7 +222,6 @@ ul.featured-project-languages li {
 .featured-project-button:enabled {
   align-items: center;
   padding: 12px;
-  font-family: "Inter", sans-serif;
   font-size: 17px;
   color: rgb(20 33 221);
   margin-top: 12px;
@@ -235,7 +234,6 @@ ul.featured-project-languages li {
   align-items: center;
   padding: 12px;
   background: #fff5e1;
-  font-family: "Inter", sans-serif;
   font-size: 17px;
   color: #ebebff;
   border: 1px solid #0019f5;
@@ -247,7 +245,6 @@ ul.featured-project-languages li {
   padding: 12px;
   display: flex;
   background: #0019f5;
-  font-family: "Inter", sans-serif;
   font-size: 17px;
   color: #fff;
   border: none;
@@ -259,19 +256,17 @@ ul.featured-project-languages li {
   padding: 12px;
   display: flex;
   background: #f4f1f0;
-  font-family: "Inter", sans-serif;
   font-size: 17px;
   color: #5b5957;
   border: none;
   margin-top: 12px;
 }
 
-/*about*/
+/* about */
 
 .resume-project-button {
   padding: 12px;
   background: #fff;
-  font-family: "Inter", sans-serif;
   font-size: 17px;
   color: rgb(20 33 221);
   margin-top: 12px;
