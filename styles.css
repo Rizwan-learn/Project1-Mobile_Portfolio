@@ -290,8 +290,6 @@ ul.featured-project-languages li {
   margin-top: 12px;
 }
 
-/* about */
-
 .resume-project-button {
   padding: 12px;
   background: #fff;
@@ -302,3 +300,25 @@ ul.featured-project-languages li {
   justify-content: flex-start;
   display: flex;
 }
+
+/* About Me page */
+
+#spearator-3 {
+  border-bottom: 1px solid #212121;
+  width: 327px;
+  margin: auto;
+  margin-bottom: 80px;
+}
+#information-list{
+  display: flex;
+  align-self: flex-start;
+  padding-top: 20%;
+}
+
+.sub-item{
+  align-self: flex-end;
+  justify-content: space-between;
+  display: flex;  
+}
+
+
