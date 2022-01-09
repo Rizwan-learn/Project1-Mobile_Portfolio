@@ -309,16 +309,15 @@ ul.featured-project-languages li {
   margin: auto;
   margin-bottom: 80px;
 }
-#information-list{
+
+#information-list {
   display: flex;
   align-self: flex-start;
   padding-top: 20%;
 }
 
-.sub-item{
+.sub-item {
   align-self: flex-end;
   justify-content: space-between;
-  display: flex;  
+  display: flex;
 }
-
-
