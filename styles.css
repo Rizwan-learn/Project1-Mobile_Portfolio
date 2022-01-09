@@ -218,7 +218,7 @@ ul.featured-project-languages li {
   padding: 12px 10px;
 }
 
-#my-project-list-2{
+#my-project-list-2 {
   display: flex;
   flex-direction: column;
   margin-right: 24px;
@@ -246,8 +246,6 @@ ul.featured-project-languages li {
   line-height: 44px;
   color: #091e42;
 }
-
-
 
 .featured-project-button:enabled {
   align-items: center;
