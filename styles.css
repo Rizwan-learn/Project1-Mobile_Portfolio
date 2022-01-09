@@ -11,7 +11,6 @@ body {
   flex-direction: column;
   justify-content: flex-start;
   height: 100vh;
-  position: absolute;
 }
 
 header {
@@ -61,12 +60,11 @@ a:hover {
   width: 25px;
   height: 3px;
   margin: 5px auto;
-  -webkit-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out;
   background-color: #6070ff;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 400px) {
   .hamburger {
     display: block;
   }
@@ -111,7 +109,6 @@ a:hover {
 }
 
 .intro {
-  position: static;
   display: flex;
   align-items: center;
   align-content: center;
@@ -122,7 +119,6 @@ a:hover {
 
 section h1 {
   display: flex;
-  position: static;
   font-family: sans-serif;
   color: #091e42;
   font-size: 48px;
@@ -139,6 +135,7 @@ section p {
   line-height: 28px;
   flex: none;
   width: 80%;
+  min-width: 500px;
 }
 
 .socials {
@@ -162,4 +159,165 @@ ul .s-icons {
   width: 20px;
   margin-right: 10px;
   float: left;
+}
+
+/* Portfolio page CSS will be added here */
+
+.project-location {
+  display: grid;
+}
+
+#my-project-list {
+  display: flex;
+  flex-direction: column;
+  margin-right: 24px;
+  margin-left: 24px;
+}
+
+#spearator {
+  border-bottom: 1px solid #212121;
+  width: 327px;
+  margin: auto;
+  margin-bottom: 80px;
+}
+
+#featured-project-image {
+  display: block;
+  margin: auto;
+  margin-bottom: 24px;
+}
+
+#featured-project-title {
+  font-family: "Crete Round", serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 32px;
+  line-height: 44px;
+  color: #091e42;
+}
+
+#featured-project-description {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 24px;
+  margin-bottom: 12px;
+}
+
+ul.featured-project-languages {
+  list-style-type: none;
+  display: flex;
+  font-size: 16px;
+  gap: 12px;
+}
+
+ul.featured-project-languages li {
+  border: 1px solid #ebebff;
+  box-sizing: border-box;
+  text-align: center;
+  padding: 12px 10px;
+}
+
+#my-project-list-2 {
+  display: flex;
+  flex-direction: column;
+  margin-right: 24px;
+  margin-left: 24px;
+}
+
+#spearator-2 {
+  border-bottom: 1px solid #212121;
+  width: 327px;
+  margin: auto;
+  margin-bottom: 80px;
+}
+
+#featured-project-image-2 {
+  display: block;
+  margin: auto;
+  margin-bottom: 24px;
+}
+
+#featured-project-title- {
+  font-family: "Crete Round", serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 32px;
+  line-height: 44px;
+  color: #091e42;
+}
+
+.featured-project-button:enabled {
+  align-items: center;
+  padding: 12px;
+  font-size: 17px;
+  color: rgb(20 33 221);
+  margin-top: 12px;
+  max-width: 30%;
+  display: flex;
+}
+
+.featured-project-button:hover {
+  display: flex;
+  align-items: center;
+  padding: 12px;
+  background: #fff5e1;
+  font-size: 17px;
+  color: #ebebff;
+  border: 1px solid #0019f5;
+  margin-top: 12px;
+}
+
+.featured-project-button:active {
+  align-items: center;
+  padding: 12px;
+  display: flex;
+  background: #0019f5;
+  font-size: 17px;
+  color: #fff;
+  border: none;
+  margin-top: 12px;
+}
+
+.featured-project-button:disabled {
+  align-items: center;
+  padding: 12px;
+  display: flex;
+  background: #f4f1f0;
+  font-size: 17px;
+  color: #5b5957;
+  border: none;
+  margin-top: 12px;
+}
+
+.resume-project-button {
+  padding: 12px;
+  background: #fff;
+  font-size: 17px;
+  color: rgb(20 33 221);
+  margin-top: 12px;
+  max-width: 60%;
+  justify-content: flex-start;
+  display: flex;
+}
+
+/* About Me page */
+
+#spearator-3 {
+  border-bottom: 1px solid #212121;
+  width: 327px;
+  margin: auto;
+  margin-bottom: 80px;
+}
+
+#information-list {
+  display: flex;
+  align-self: flex-start;
+  padding-top: 20%;
+}
+
+.sub-item {
+  align-self: flex-end;
+  justify-content: space-between;
+  display: flex;
 }
